@@ -1,0 +1,34 @@
+--------------- sass ----------
+ # Ruby Installer
+ # gem install sass (for windows) with CMD
+ # ruby -v
+ # sass -v
+ # intregetion sass --watch style.sassdi rector:style.css directory
+ sass --watch D:\SoftwareInstallation\xamp\htdocs\Ims\scss\style.scss:D:\SoftwareInstallation\xamp\htdocs\Ims\css\style.css
+
+ ------------ scss variable -------------
+ $primary-color: #1DD2AF;
+
+ --------- parshial -------
+ define
+ scss(folder)
+ 	variabls(folder)
+ 	 	 _var.scss
+
+ apply @import "variables/var";
+
+ --------------- theme note -----------
+ <!-- bootstrap structure -->
+<div class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /bootstrap structure -->
+
+# http://placehold.it/436x86
+# Theme colro: #22D18D
