@@ -1,107 +1,70 @@
 /* ================== variable ================ */
-/* nav style */
-.navbar-default {
-  background-color: #3498DB;
-  border-color: #01be75; }
-  .navbar-default .navbar-brand {
-    color: #ffffff; }
-    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-      color: #ffffff; }
-  .navbar-default .navbar-text {
-    color: #ffffff; }
-  .navbar-default .navbar-nav > li > a {
-    color: #ffffff; }
-    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-      color: #ffffff; }
-  .navbar-default .navbar-nav > li > .dropdown-menu {
-    background-color: #3498DB; }
-    .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-      color: #ffffff; }
-      .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-        color: #ffffff;
-        background-color: #01be75; }
-    .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
-      background-color: #01be75; }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #01be75; }
-  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #ffffff;
-    background-color: #01be75; }
-  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color: #ffffff;
-    background-color: #01be75; }
-  .navbar-default .navbar-toggle {
-    border-color: #01be75; }
-    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-      background-color: #01be75; }
-    .navbar-default .navbar-toggle .icon-bar {
-      background-color: #ffffff; }
-  .navbar-default .navbar-collapse,
-  .navbar-default .navbar-form {
-    border-color: #ffffff; }
-  .navbar-default .navbar-link {
-    color: #ffffff; }
-    .navbar-default .navbar-link:hover {
-      color: #ffffff; }
+/* =================== menu style start ================= */
+.dropdown-submenu {
+  position: relative; }
 
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ffffff; }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-      color: #ffffff; }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #01be75; } }
-/* nav custom */
-.navbar {
-  border-radius: 0px;
-  border: none;
-  margin-bottom: 0; }
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  /*-webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;*/ }
 
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block; }
+
+.dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #ccc;
+  margin-top: 5px;
+  margin-right: -10px; }
+
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff; }
+
+.dropdown-submenu.pull-left {
+  float: none; }
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px; }
+
+/* custom */
 .nav-section {
   background: #3498DB; }
 
-.navbar-nav > li > a {
-  text-transform: uppercase; }
+.navbar {
+  background: #3498DB;
+  color: #fff;
+  border: 0px solid transparent;
+  margin-bottom: 0px;
+  min-height: 50px;
+  position: relative; }
 
-.navbar-nav li:hover {
-  background: #3498DB; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  background-color: #22D18D;
+  color: #fff; }
 
-/* click problem solve */
-.dropdown-menu .sub-menu {
-  left: 100%;
-  position: absolute;
-  top: 0;
-  visibility: hidden;
-  margin-top: -1px; }
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
 
-.dropdown-menu li:hover .sub-menu {
-  visibility: visible; }
+.navbar-default .navbar-nav > li > a:hover {
+  color: #fff; }
 
-.dropdown:hover .dropdown-menu {
-  display: block; }
-
-.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
-  margin-top: 0; }
-
-.navbar .sub-menu:before {
-  border-bottom: 7px solid transparent;
-  border-left: none;
-  border-right: 7px solid rgba(0, 0, 0, 0.2);
-  border-top: 7px solid transparent;
-  left: -7px;
-  top: 10px; }
-
-.navbar .sub-menu:after {
-  border-top: 6px solid transparent;
-  border-left: none;
-  border-right: 6px solid #fff;
-  border-bottom: 6px solid transparent;
-  left: 10px;
-  top: 11px;
-  left: -6px; }
-
+/* ul */
+/* =================== menu style end ===================== */
 /*
 	Theme Name: Institute Management System
 	Theme URI: http://shahriarmurol.tk/
@@ -117,16 +80,20 @@
 * {
   margin: 0;
   padding: 0;
-  outline: 0;
-  box-sizing: border-box;
+  /*outline: 0;*/
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box; }
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 ul, ol {
   list-style: none; }
 
 a {
   text-decoration: none; }
+
+img {
+  width: 100%;
+  max-width: 100%; }
 
 /* commond style */
 .box {
@@ -141,7 +108,10 @@ a {
 
 /* global style */
 body {
-  background: url("../images/bg.png"); }
+  background: url("../images/bg.png");
+  font-size: 14px;
+  line-height: 1.5em;
+  font-family: 'Open Sans', sans-serif; }
 
 /* =================== header section =============== */
 .header-section {
@@ -166,6 +136,53 @@ body {
   right: 45px;
   bottom: 25px;
   color: #22D18D; }
+
+/* ================== sliders ==================*/
+.slider-section .container {
+  padding: 0; }
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none; }
+
+/* ================= latest news ===============*/
+.latest-news {
+  background: #fff none repeat scroll 0 0;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+  margin: 5px auto;
+  padding: 8px; }
+
+.latest-news-left {
+  width: 10%;
+  float: left; }
+
+.latest-news-left span {
+  font-weight: 700; }
+
+.latest-news-right {
+  width: 90%;
+  float: left;
+  padding-left: 5px; }
+
+.latest-news-right marquee {
+  padding: 0 15px; }
+
+/* ticker */
+.ui-newsticker {
+  background: #fff; }
+
+/* ============== campus info ================== */
+.informations {
+  background: #fff; }
+
+.informations p {
+  margin-top: 15px; }
+
+/* notice board */
+.news-event {
+  border: 1px solid #333;
+  padding: 15px;
+  border-radius: 5px; }
 
 /* ============== responsive css =============== */
 /*==========  Non-Mobile First Method  ==========*/

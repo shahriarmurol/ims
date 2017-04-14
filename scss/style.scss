@@ -15,16 +15,20 @@
 *{
 	margin:0;
 	padding: 0;
-	outline: 0;
-	box-sizing: border-box;
+	/*outline: 0;*/
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 ul,ol{
 	list-style: none;
 }
 a{
 	text-decoration:none;
+}
+img{
+	width: 100%;
+	max-width: 100%;
 }
 /* commond style */
 .box{
@@ -41,6 +45,9 @@ a{
 html{}
 body{
 	background: url('../images/bg.png');
+	font-size: 14px;
+	line-height: 1.5em;
+	font-family: 'Open Sans', sans-serif;
 }
 /* =================== header section =============== */
 .header-section{
@@ -69,6 +76,58 @@ body{
 	right: 45px;
 	bottom: 25px;
 	color: $theme-color;
+}
+/* ================== sliders ==================*/
+.slider-section{
+}
+.slider-section .container{
+	padding: 0;
+}
+.carousel-control.left,.carousel-control.right {
+  background-image: none
+}
+/* ================= latest news ===============*/
+.latest-news {
+  background: #fff none repeat scroll 0 0;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+  margin: 5px auto;
+  padding: 8px;
+}
+.latest-news-left{
+	width: 10%;
+	float: left;
+}
+.latest-news-left span{
+	font-weight: 700;
+}
+.latest-news-right{
+	width: 90%;
+	float: left;
+	padding-left: 5px;
+}
+.latest-news-right marquee{
+	padding: 0 15px;
+}
+/* ticker */
+.ui-newsticker{
+	background: #fff;
+}
+.news-event.ui-newsticker-list{}
+.news-event.ui-newsticker-item{}
+/* ============== campus info ================== */
+.informations{
+	background: #fff;
+}
+.informations img{}
+.informations p{
+	margin-top: 15px;
+}
+/* notice board */
+.news-event{
+	border:1px solid #333;
+	padding: 15px;
+	border-radius: 5px;
 }
 /* ============== responsive css =============== */
 /*==========  Non-Mobile First Method  ==========*/

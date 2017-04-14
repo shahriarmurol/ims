@@ -17,6 +17,10 @@
 
  apply @import "variables/var";
 
+sass function
+ $nav-bg-hover-color:lighten($nav-bg-color, 15%);
+ $nav-bg-hover-color:darken(color, 15%);
+
  --------------- theme note -----------
  <!-- bootstrap structure -->
 <div class="container-fluid">
@@ -32,3 +36,4 @@
 
 # http://placehold.it/436x86
 # Theme colro: #22D18D
+# navbar-fixed-top // for fixed nev
