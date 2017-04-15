@@ -66,7 +66,12 @@ body{
 	color: $white-color;
 }
 /* Top search */
-.header-search{
+.header-search {
+  width: 280px;
+  display: block;
+  clear: both;
+  float: right;
+  padding-top: 15px;
 }
 .search-btn-field{
 	position: relative;
@@ -128,6 +133,20 @@ body{
 	border:1px solid #333;
 	padding: 15px;
 	border-radius: 5px;
+}
+/*  ============ notice , mange, stdinfo ============ */
+.notice-manage-stdinfo{
+	background:$white-color; 
+}
+.marquee {
+  padding: 15px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  display: inline-block;
 }
 /* ============== responsive css =============== */
 /*==========  Non-Mobile First Method  ==========*/
