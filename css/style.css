@@ -205,6 +205,9 @@ body {
   -moz-border-radius: 5px;
   display: inline-block; }
 
+.photo-gellary-and-promo-video {
+  background: #22D18D; }
+
 /* ============== responsive css =============== */
 /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
