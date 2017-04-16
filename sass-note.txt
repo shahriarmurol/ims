@@ -36,7 +36,9 @@ sass function
 	</div>
 </div>
 <!-- /bootstrap structure -->
-
+---------------------- theme ------------
+# logo size 436x86
 # http://placehold.it/436x86
 # Theme colro: #22D18D
 # navbar-fixed-top // for fixed nev
+# campuse photo size 639 x 488
