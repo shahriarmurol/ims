@@ -151,6 +151,33 @@ body{
 .photo-gellary-and-promo-video{
 	background: $theme-color;
 }
+/* ============== footer section =============== */
+.footer-section{
+	background: $footer-bg-color;
+}
+.footer-top{
+	padding-bottom: 15px;
+}
+.footer-top .title h4{
+	color:$theme-color;
+}
+.footer-top ul li a,.footer-top ul li i{
+	color: $white-color;
+	font-style: italic;
+}
+.footer-bottom{
+	border-top:1px solid #333;
+	padding-top: 30px;
+	margin-bottom:-15px;
+	color: $white-color;
+}
+.social-link ul li{
+	display: inline-block;
+	padding: 3px;
+}
+.social-link ul li:hover a i{
+	color: #white-color;
+}
 /* ============== responsive css =============== */
 /*==========  Non-Mobile First Method  ==========*/
 

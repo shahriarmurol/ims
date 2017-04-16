@@ -208,6 +208,33 @@ body {
 .photo-gellary-and-promo-video {
   background: #22D18D; }
 
+/* ============== footer section =============== */
+.footer-section {
+  background: #181818; }
+
+.footer-top {
+  padding-bottom: 15px; }
+
+.footer-top .title h4 {
+  color: #22D18D; }
+
+.footer-top ul li a, .footer-top ul li i {
+  color: #fff;
+  font-style: italic; }
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 30px;
+  margin-bottom: -15px;
+  color: #fff; }
+
+.social-link ul li {
+  display: inline-block;
+  padding: 3px; }
+
+.social-link ul li:hover a i {
+  color: #white-color; }
+
 /* ============== responsive css =============== */
 /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
