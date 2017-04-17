@@ -1,4 +1,5 @@
 /* ================== variable ================ */
+/* footer */
 /* =================== menu style start ================= */
 .dropdown-submenu {
   position: relative; }
@@ -98,7 +99,9 @@ img {
 /* commond style */
 .box {
   width: 1170px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 5px 12px 0 rgba(0, 0, 0, 0.3); }
 
 .section-padding {
   padding: 30px 0; }
@@ -107,6 +110,9 @@ img {
   margin-right: 15px; }
 
 .section-title {
+  margin-bottom: 30px; }
+
+.title {
   margin-bottom: 30px; }
 
 /* global style */
@@ -147,6 +153,10 @@ body {
   bottom: 25px;
   color: #22D18D; }
 
+/* =========== nav style ====================*/
+.nav-section {
+  background: #3498DB; }
+
 /* ================== sliders ==================*/
 .slider-section .container {
   padding: 0; }
@@ -154,22 +164,24 @@ body {
 .carousel-control.left, .carousel-control.right {
   background-image: none; }
 
-/* ================= latest news ===============*/
-.latest-news {
-  background: #22D18D;
-  border-bottom: 2px solid #181818;
-  border-top: 2px solid #181818;
-  margin: 5px auto;
-  padding: 8px;
-  color: #fff;
-  box-shadow: 5px 5px 5px #ccc; }
+/* ================= Announcement ===============*/
+.announcement {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  border-bottom: 2px solid #ccc;
+  border-top: 2px solid #ccc;
+  margin: 1px auto;
+  padding: 8px; }
 
 .latest-news-left {
   width: 10%;
   float: left; }
 
 .latest-news-left span {
-  font-weight: 700; }
+  display: inline-block;
+  padding-top: 5px;
+  font-weight: 700;
+  color: #ff5722; }
 
 .latest-news-right {
   width: 90%;
@@ -181,8 +193,9 @@ body {
 
 /* ticker */
 .ui-newsticker, .ui-newsticker:hover {
-  background: #22D18D;
-  color: #fff; }
+  color: #666;
+  background: #fff;
+  cursor: pointer; }
 
 /* ============== campus info ================== */
 .informations {
@@ -199,10 +212,11 @@ body {
   border-radius: 5px; }
 
 .campus-info img:hover {
-  border: 2px solid #22D18D;
+  border: 2px solid #ddd;
   transform: scale(1.5);
-  z-index: 500;
-  margin: 0 auto; }
+  z-index: 9999;
+  margin: 0 auto;
+  overflow: hidden; }
 
 .informations p {
   margin-top: 15px; }
@@ -226,7 +240,9 @@ body {
 /*  ============ notice , mange, stdinfo ============ */
 .notice-manage-stdinfo {
   background: #FDFDFD;
-  border: 1px solid #ccc; }
+  border: 1px solid #ccc;
+  border-top: none;
+  margin-top: 1px; }
 
 .marquee {
   padding: 15px;
@@ -244,36 +260,93 @@ body {
 .marquee a p {
   color: #fff; }
 
+.student-apply {
+  padding: 15px; }
+
+/* =========== photo gellery ===========*/
 .photo-gellary-and-promo-video {
-  background: #22D18D; }
+  background: #2196F3;
+  position: relative;
+  color: #fff; }
+
+.photo-slider img {
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px; }
+
+.gellary-overlay {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); }
+
+.fb-page {
+  padding: 15px;
+  padding-top: 30px;
+  width: 100%;
+  margin: 0 auto; }
+
+.fb-page iframe {
+  display: block;
+  margin: 0 auto; }
+
+.promo-video iframe {
+  border-radius: 3px; }
 
 /* ============== activity section ============= */
 /* ============== footer section =============== */
 .footer-section {
-  background: #181818; }
+  background: #333333; }
 
 .footer-top {
   padding-bottom: 15px; }
 
 .footer-top .title h4 {
-  color: #22D18D; }
-
-.footer-top ul li a, .footer-top ul li i {
   color: #fff;
-  font-style: italic; }
+  border-bottom: 1px solid #555;
+  font-size: 18px;
+  padding-bottom: 10px; }
 
-.footer-bottom {
-  border-top: 1px solid #333;
-  padding-top: 30px;
-  margin-bottom: -15px;
+.footer-top ul li a {
+  color: #ccc;
+  display: block;
+  padding: 4px 0;
+  text-decoration: none; }
+
+.footer-top ul li:hover a {
   color: #fff; }
 
+/*  footer bottom */
+.footer-bottom {
+  border-top: 1px solid #555;
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: -40px;
+  padding: 15px; }
+
+/* social link style */
 .social-link ul li {
   display: inline-block;
   padding: 3px; }
 
-.social-link ul li:hover a i {
-  color: #white-color; }
+.social-link ul li a {
+  color: #aaa; }
+
+.social-link ul li:hover a {
+  color: #22D18D; }
+
+/* ================ develoepr team style =============*/
+.developer {
+  color: #22D18D;
+  padding-left: 5px; }
+
+.developer:hover {
+  font-style: italic;
+  color: #22D18D; }
 
 /* ============== responsive css =============== */
 /*==========  Non-Mobile First Method  ==========*/

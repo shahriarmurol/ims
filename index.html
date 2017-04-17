@@ -11,7 +11,7 @@
 	 <link rel="stylesheet" href="css/font-awesome.min.css"> <!-- font-awesome css  -->
 	 <link rel="stylesheet" href="css/jquery.newsticker.min.css">
 	 <link rel="stylesheet" href="css/owl.carousel.min.css"> <!-- owl carousel -->
-	<link rel="stylesheet" href="css/owl.theme.default.min.css"> <!-- owl carousel -->
+	 <link rel="stylesheet" href="css/owl.theme.default.min.css"> <!-- owl carousel -->
 	 <link rel="stylesheet" href="css/style.css"> <!-- Main style -->
 	 <link rel="stylesheet" href="css/nav.css"> <!-- Main style -->
 	 <!-- /CSS  -->
@@ -204,7 +204,7 @@
 <!-- /nav section -->
 
 <!-- latest news -->
-<section class="latest-news box">
+<section class="announcement box">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -282,7 +282,7 @@
 <!-- /slider section -->
 
 <!-- informations -->
-<section class="informations section-padding box">
+<section class="informations notice-manage-stdinfo section-padding box">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
@@ -296,7 +296,6 @@
 					<h2> <i class="fa fa-graduation-cap"></i> Academics</h2>
 					<p>Degreename Programs</p>
 					<ul>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
 						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
 						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
 						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
@@ -338,11 +337,12 @@
 			</div>
 		</div>
 	</div>	
-</section>
+<!-- </section> -->
 <!-- /informations -->
 
 <!-- notice and mangenent and student info section -->
-	<section class="notice-manage-stdinfo box">
+<!-- 	<section class="notice-manage-stdinfo section-padding box"> -->
+		<p class="empty" style="margin-bottom: 30px;"></p>
 		<div class="container">
 			<div class="row">
 				<!-- management  -->
@@ -390,14 +390,10 @@
 
 				<!-- notice board -->
 				<div class="col-md-4">
-					<div class="notice-board">
-						<h2>Education News</h2>
-							<div class="marquee" data-direction='up' data-duration='5000' data-pauseOnHover="true">
-								<a href="#"><p>jQuery marquee is the best marquee plugin in the world</p></a>
-								<a href="#"><p>jQuery marquee is the best marquee plugin in the world</p></a>
-								<a href="#"><p>jQuery marquee is the best marquee plugin in the world</p></a>
-								<a href="#"><p>jQuery marquee is the best marquee plugin in the world</p></a>
-							</div>
+					<h2 class="text-center">Online Admission</h2>
+					<!-- 	student apply -->
+					<div class="student-apply">
+						<a class="btn btn-block btn-success" style="padding: 8px;" href="#">Apply Now</a>
 					</div>
 				</div>
 				<!-- /notice board -->
@@ -411,10 +407,11 @@
 
 <!-- photo gallery + promo video -->
 <section class="photo-gellary-and-promo-video section-padding box">
+	<div class="gellary-overlay"></div>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-			<h2 class="text-center">Class & Labs</h2>
+			<h2 class="title text-center">Class &amp; Labs</h2>
 				<div class="photo-slider">
 					<div class="owl-carousel owl-theme">
 					    <div><img src="images/photo-slider.jpg" alt=""></div>
@@ -425,13 +422,18 @@
 				</div>
 			</div>
 			<div class="col-md-4">
+					<!-- promo video -->
 				<div class="promo-video">
-					<h2>Promo Video</h2>
-					<div class="embed-responsive embed-responsive-4by3">
+					<h2 class="title text-center">Promo Video</h2>
+					<div class="embed-responsive embed-responsive-16by9">
 						    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lkQTe0Wdo2k"></iframe>
 						</div>
-					</div>
 				</div>
+				<!-- fb page -->
+				<div class="fb-page">
+						 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=300&height=214&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="214" style="border:none;overflow:hidden;display: inline-block;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>	
+					</div>
+			</div>
 				   
 		</div>
 	</div>
@@ -462,10 +464,10 @@
 							<h4>About</h4>
 						</div>
 						<ul>
-							<li><i class="fa fa-link"></i> <a href="#"> About link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> About link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> About link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> About link</a></li>
+							<li><a href="#"> About link</a></li>
+							<li><a href="#"> About link</a></li>
+							<li><a href="#"> About link</a></li>
+							<li><a href="#"> About link</a></li>
 						</ul>
 					</div>
 				</div>
@@ -475,10 +477,10 @@
 							<h4>Academics</h4>
 						</div>
 						<ul>
-							<li><i class="fa fa-link"></i> <a href="#"> Academic link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> Academic link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> Academic link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> Academic link</a></li>
+							<li><a href="#"> Academic link</a></li>
+							<li><a href="#"> Academic link</a></li>
+							<li><a href="#"> Academic link</a></li>
+							<li><a href="#"> Academic link</a></li>
 						</ul>
 					</div>
 				</div>
@@ -488,10 +490,10 @@
 							<h4>Resources</h4>
 						</div>
 						<ul>
-							<li><i class="fa fa-link"></i> <a href="#"> Resources link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> Resources link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> Resources link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> Resources link</a></li>
+							<li><a href="#"> Resources link</a></li>
+							<li><a href="#"> Resources link</a></li>
+							<li><a href="#"> Resources link</a></li>
+							<li><a href="#"> Resources link</a></li>
 						</ul>
 					</div>
 				</div>
@@ -501,10 +503,10 @@
 							<h4>Campuse Life</h4>
 						</div>
 						<ul>
-							<li><i class="fa fa-link"></i> <a href="#"> Campus link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> Campus link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> Campus link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> Campus link</a></li>
+							<li><a href="#"> Campus link</a></li>
+							<li><a href="#"> Campus link</a></li>
+							<li><a href="#"> Campus link</a></li>
+							<li><a href="#"> Campus link</a></li>
 						</ul>
 					</div>
 				</div>
@@ -514,10 +516,10 @@
 							<h4>Important Links</h4>
 						</div>
 						<ul>
-							<li><i class="fa fa-link"></i> <a href="#"> Important link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> Important link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> Important link</a></li>
-							<li><i class="fa fa-link"></i> <a href="#"> Important link</a></li>
+							<li><a href="#"> Important link</a></li>
+							<li><a href="#"> Important link</a></li>
+							<li><a href="#"> Important link</a></li>
+							<li><a href="#"> Important link</a></li>
 						</ul>
 					</div>
 				</div>
@@ -549,7 +551,7 @@
 					<p>2017-2017 &copy; Institute Management System. All Right Reserved.</p>
 				</div>
 				<div class="col-md-4">
-					<strong>Developed by </strong><a href="#">SIMT Batch-2013-2014</a>
+					<strong>Developed by </strong><a class="developer" href="#">SIMT- CMT Batch-2013-2014</a>
 				</div>
 			</div>
 		</div>
