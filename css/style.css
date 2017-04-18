@@ -297,6 +297,26 @@ body {
 .promo-video iframe {
   border-radius: 3px; }
 
+/* ============== partner section ============== */
+.bx-wrapper {
+  padding: 15px;
+  width: 100% !important;
+  margin: 0 auto;
+  border: 0;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 5px #ddd;
+  -webkit-box-shadow: 5px 5px 5px #ddd;
+  -moz-box-shadow: 5px 5px 5px #ddd; }
+
+.bx-wrapper ul li a img {
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  opacity: .7; }
+
+.bx-wrapper ul li:hover a img {
+  opacity: 1; }
+
 /* ============== activity section ============= */
 /* ============== footer section =============== */
 .footer-section {

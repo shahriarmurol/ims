@@ -1,3 +1,13 @@
+---------------- git hub ------
+//email
+usernaem : csehosenshahriar@gmail.com
+pass: @Imscsehosenshahriar
+
+//git
+url(first) : https://github.com/shahriarmurol/ims
+URL(present) : https://github.com/csehosenshahriar/ums.git
+csehosenshahriar@gmail.com
+ims_simit_batch_1314
 --------------- sass ----------
  # Ruby Installer
  # gem install sass (for windows) with CMD
