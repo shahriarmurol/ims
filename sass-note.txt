@@ -8,6 +8,10 @@ url(first) : https://github.com/shahriarmurol/ims
 URL(present) : https://github.com/csehosenshahriar/ums.git
 csehosenshahriar@gmail.com
 ims_simit_batch_1314
+------------ sublime -----------
+shift + tab = code left indent 
+--------------google map api key -----------
+AIzaSyCbpfIqSlfyN7O08lc1flKYEfurLH6D744
 --------------- sass ----------
  # Ruby Installer
  # gem install sass (for windows) with CMD

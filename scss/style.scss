@@ -1,5 +1,6 @@
 @import "variables/var";
 @import "modules/nav";
+@import "modules/tab";
 /*
 	Theme Name: Institute Management System
 	Theme URI: http://shahriarmurol.tk/
@@ -27,7 +28,6 @@ a{
 	text-decoration:none;
 }
 img{
-	width: 100%;
 	max-width: 100%;
 }
 /* commond style */
@@ -259,8 +259,6 @@ body{
 .bx-wrapper ul li:hover a img{
 	opacity: 1;
 }
-
-/* ============== activity section ============= */
 /* ============== footer section =============== */
 .footer-section{
 	background: $footer-bg-color;
@@ -310,6 +308,20 @@ body{
 .developer:hover{
 	font-style: italic;
 	color: $theme-color;
+}
+/* ========================= about page style ================================== */
+ .map_canvas{
+ 	position: relative;
+ }
+  #map {
+  		width: 100%;
+        /*height: 100%;*/
+        min-height: 400px;
+  }
+   html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 /* ============== responsive css =============== */
 /*==========  Non-Mobile First Method  ==========*/
