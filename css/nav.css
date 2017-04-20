@@ -15,8 +15,9 @@
 .menu {
   list-style: none;
   background: #3498DB;
+  /* two menu space problem solve*/
   margin: 0;
-  /* two menu space problem solve*/ }
+  padding: 0; }
 
 .menu li {
   display: inline-block;
@@ -31,6 +32,11 @@
 
 .menu li:hover {
   background: #1d6fa5; }
+
+/* active class */
+.menu li.active a {
+  background: #1d6fa5;
+  margin: 0; }
 
 /* style for submeny */
 .menu li {

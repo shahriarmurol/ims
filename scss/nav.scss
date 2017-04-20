@@ -20,6 +20,8 @@ $nav-font-color:#fff;
 .menu{
 	list-style: none;
 	background: $nav-bg-color; /* two menu space problem solve*/
+	margin: 0;
+	padding: 0;
 }
 .menu li{ 
 	display: inline-block;
@@ -34,6 +36,11 @@ $nav-font-color:#fff;
 }
 .menu li:hover{
 	background:$nav-bg-hover-color;
+}
+/* active class */
+.menu li.active a{
+	background: darken($nav-bg-color, 15%);
+	margin: 0;
 }
 /* style for submeny */
 .menu li{
