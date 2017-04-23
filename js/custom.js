@@ -42,5 +42,8 @@
       slideWidth: 200,
       slideMargin: 10
     });
-
+   //
+    $('#myCarousel').carousel({
+      interval: 10000
+   })
 })(jQuery);

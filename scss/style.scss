@@ -323,6 +323,46 @@ body{
     margin: 0;
     padding: 0;
 }
+/* ==================== gallery ================*/
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+.gallery-section{
+	background:$theme-color;
+	position: relative;
+}
+.gallery-section:before{
+	position: absolute;
+	content: "";
+	 top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	background: rgba(0,0,0,.5);
+}
+.carousel {
+    margin-bottom: 0;
+	padding: 0 40px 30px 40px;
+}
+/* Reposition the controls slightly */
+.carousel-control {
+	left: -12px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* Changes the position of the indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+.carousel-indicators .active {
+background:#fff;
+}
 /* ============== responsive css =============== */
 /*==========  Non-Mobile First Method  ==========*/
 
