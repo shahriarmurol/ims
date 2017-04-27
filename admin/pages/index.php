@@ -55,7 +55,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <strong>John Smith</strong>
+                                    <strong>Admin</strong>
                                     <span class="pull-right text-muted">
                                         <em>Yesterday</em>
                                     </span>
@@ -372,7 +372,17 @@
                                     <i class="fa fa-comments fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">26</div>
+                                    <div class="huge">
+                                        <?php 
+                                            require_once('config.php');
+                                            $slt = "SELECT * FROM comments";
+                                            $qre = mysqli_query($DBC,$slt);
+                                            $data=mysqli_fetch_array($qre);
+                                            $msg = count($data);
+                                            $msg+=1;
+                                            echo "$msg";
+                                        ?>
+                                    </div>
                                     <div>New Comments!</div>
                                 </div>
                             </div>
