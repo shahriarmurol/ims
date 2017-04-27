@@ -512,6 +512,10 @@ html, body {
 .carousel-indicators .active {
   background: #fff; }
 
+/* ============== admin panel style ============*/
+.action-btn {
+  display: inline-block; }
+
 /* ============== responsive css =============== */
 /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
