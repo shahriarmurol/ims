@@ -257,249 +257,96 @@
 </section>
 <!-- /latest news -->
 
-<!-- slider section -->
-<section class="slider-section box">
+<!-- online admission section -->
+<section class="online-admission section-padding box" style="background: #fff">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
+				<div class="addmission-inner">
+					<h1 class="text-center">Online Admission Form</h1>
+					<p><strong>Instruction:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae doloribus libero natus, doloremque? In, nemo quasi voluptatibus ducimus asperiores dicta, deserunt voluptatum architecto, vitae numquam impedit ratione sint ipsa pariatur fugit corrupti reprehenderit quo quibusdam non. Laborum eos ullam molestiae ratione similique ipsa sit aperiam consequuntur impedit unde. Deserunt, numquam</p>
 
-				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-				  <!-- Indicators -->
-				  <ol class="carousel-indicators">
-				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				  </ol>
+					<p style="color: red">* Marks Require, Fill This Field Must.</p>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<form action="" method="post">
+								<!-- form element -->
+								<div class="form-group">
+									<label for="sub" class="control-label col-sm-4">Application For Admission in</label>
+									<div class="col-sm-8">
+										<select class="form-control" id="sub">
+										  <option selected>CSE</option>
+										  <option>EEE</option>
+										  <option>BBA</option>
+										  <option>Math</option>
+										  <option>SS</option>
+										</select>
+									</div>
+								</div>
+								<!-- form element -->
+								<!-- form element -->
+								<div class="form-group">
+									<label for="sub" class="control-label col-sm-4">Name of the applicant</label>
+									<div class="col-sm-8">
+										<input type="text" name="name" id="name" class="form-control"/>
+									</div>
+								</div>
+								<!-- form element -->
 
-				  <!-- Wrapper for slides -->
-				  <div class="carousel-inner" role="listbox">
-				    <div class="item active">
-				      <img src="images/slides/s-1.jpg" alt="first slides">
-				      <div class="carousel-caption">
-				      </div>
-				    </div>
-				    <div class="item">
-				      <img src="images/slides/s-2.jpg" alt="second slides">
-				      <div class="carousel-caption">
-				      </div>
-				    </div>
-				    <div class="item">
-				      <img src="images/slides/slides.png" alt="second slides">
-				      <div class="carousel-caption">
-				      </div>
-				    </div>
-			
-				  </div>
+									<div class="form-group">
+										<label for="fname">Father's Name</label>
+										<input type="text" name="fname" id="fname" class="form-control"/>
+									</div>
+									<div class="form-group">
+										<label for="mname">Mother's Name</label>
+										<input type="text" name="mname" id="mname" class="form-control"/>
+									</div>
+									<div class="form-group">
+										<label for="birthdate">Date of Birth</label>
+										<input type="date" name="birthdate" id="birthdate" class="form-control"/>
+									</div>
+									<div class="form-group">
+										<label for="maddress">Mailing Address</label>
+										<textarea name="maddress" id="maddress" class="form-control" rows="3"></textarea>
+									</div>
+									<div class="form-group">
+										<label for="phone">Phone No</label>
+										<input type="text" maxlength="14" name="birthdate" id="birthdate" class="form-control"/>
+									</div>
+									<!-- academics -->
 
-				  <!-- Controls -->
-				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				    <span class="sr-only">Previous</span>
-				  </a>
-				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				    <span class="sr-only">Next</span>
-				  </a>
-				</div>
 
-			</div>
-		</div>
-	</div>
-</section>
-<!-- /slider section -->
-
-<!-- informations -->
-<section class="informations notice-manage-stdinfo section-padding box">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<div class="campus-info">
-					<img src="images/campus.jpg" alt="" width="280">
-					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima commodi corporis quisquam, mollitia ab aliquid, laborum odit tempore, eum ullam id maxime similique! Consectetur illo nostrum velit nihil. Modi atque, iusto, quam vero, a recusandae reprehenderit adipisci eius iste odio fugiat aperiam tempora consequatur, at quibusdam cum quaerat. Facilis, nemo!</p>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="programmes-info">
-					<h2> <i class="fa fa-graduation-cap"></i> Academics</h2>
-					<p>Degreename Programs</p>
-					<ul>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-					</ul>
-					<!-- <button class="btn btn-success btn-sm pull-right">More</button><br/> -->
-
-					<p>Degreename Programs</p>
-					<ul>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-					</ul>
-					<!-- <button class="btn btn-success btn-sm pull-right">More</button><br/> -->
-					
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="news-event">
-					<div class="notice-title">
-						<h2 class="text-center"><i class="fa fa-newspaper-o"></i>
-						Notice Board</h2>
-					</div>
-					<div class="marquee notice-marquee" data-direction='up' data-duration='5000' data-pauseOnHover="true">
-					<?php 
-						$slt = "SELECT * FROM notices ORDER BY id DESC";
-						$qre = mysqli_query($DBC,$slt);
-						while($data=mysqli_fetch_array($qre)){ ?>
-							<a href="#">
-								<p><?= $data['notice']; ?></p>
-							</a>
-						<?php	}
-					?>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>	
-<!-- </section> -->
-<!-- /informations -->
-
-<!-- notice and mangenent and student info section -->
-<!-- 	<section class="notice-manage-stdinfo section-padding box"> -->
-		<p class="empty" style="margin-bottom: 30px;"></p>
-		<div class="container">
-			<div class="row">
-				<!-- management  -->
-				<div class="col-md-4">
-					<div class="management">
-						  <h3>Management</h3>
-						  <ul class="nav nav-pills nav-stacked">
-						    	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Messages<span class="caret"></span></a>
-						      		<ul class="dropdown-menu">
-						       			 <li><a href="#">Submenu 1-1</a></li>
-						       			 <li><a href="#">Submenu 1-2</a></li>
-						        		 <li><a href="#">Submenu 1-3</a></li>     
-						        	</ul>
-						    	</li>
-						    	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Professor<span class="caret"></span></a>
-						      		<ul class="dropdown-menu">
-						       			 <li><a href="#">Submenu 1-1</a></li>
-						       			 <li><a href="#">Submenu 1-2</a></li>
-						        		 <li><a href="#">Submenu 1-3</a></li>                        
-						      		</ul>
-						    	</li>
-						    	<li><a href="#">Deans &amp; Heads</a></li>
-						    	<li><a href="#">Administration</a></li>
-						    	<li><a href="#">Committees</a></li>
-						  </ul>
-					</div>
-				</div>
-				<!-- /management  -->
-
-				<div class="col-md-4">
-					<div class="title">
-						<h2>Student Info</h2>
-						<ul>
-							<li><a href="#">Faculty Members</a></li>
-							<li><a href="#">Visiting Professors</a></li>
-							<li><a href="#">Coordination</a></li>
-							<li><a href="#">Notice Board</a></li>
-							<li><a href="#">Student Portal</a></li>
-							<li><a href="#">Student Portal</a></li>
-							<li><a href="#">Student Portal</a></li>
-							<li><a href="#">Student Portal</a></li>
-						</ul>
-					</div>
-				</div>
-
-				<!-- notice board -->
-				<div class="col-md-4">
-					<h2 class="text-center">Online Admission</h2>
-					<!-- 	student apply -->
-					<div class="student-apply">
-						<a class="btn btn-block btn-success" style="padding: 8px;" href="online-admission.php">Apply Now</a>
-					</div>
-				</div>
-				<!-- /notice board -->
-			</div>
-		</div>
-	</section>
-<!-- /notice and mangenent and student info section -->
-
-<!-- activites -->
-<!-- /activites -->
-
-<!-- photo gallery + promo video -->
-<section class="photo-gellary-and-promo-video section-padding box">
-	<div class="gellary-overlay"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-			<h2 class="title text-center">Class &amp; Labs</h2>
-				<div class="photo-slider">
-					<div class="owl-carousel owl-theme">
-					    <div><img src="images/photo-slider.jpg" alt=""></div>
-					    <div><img src="images/photo-slide-2.jpg" alt=""></div>
-					    <div><img src="images/photo-slider.jpg" alt=""></div>
-					    <div><img src="images/photo-slide-2.jpg" alt=""></div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-					<!-- promo video -->
-				<div class="promo-video">
-					<h2 class="title text-center">Promo Video</h2>
-					<div class="embed-responsive embed-responsive-16by9">
-						    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lkQTe0Wdo2k"></iframe>
+								<fieldset class="scheduler-border">
+								 <legend class="scheduler-border">Bootstrap Horizontal Form</legend>
+									 <form class="form-horizontal">
+										 <div class="form-group">
+										 	<label for="formGroupExampleInput" class="control-label col-sm-2">Name</label>
+											 <div class="col-sm-10">
+											   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Jane Doe">
+											 </div>
+										 </div>
+										 <div class="form-group">
+										 <label for="formGroupExampleInput2" class="control-label col-sm-2">Email</label>
+										 <div class="col-sm-10">
+										 <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="jane.doe@example.com">
+										 </div>
+										 </div>
+										 <div class="form-group row">
+										 <div class="offset-sm-2 col-sm-7 pull-right">
+										 <button type="submit" class="btn btn-primary">Sign in</button>
+										 </div>
+										 </div>
+									 </form>
+								 </fieldset>
+							</form>
 						</div>
-				</div>
-				<!-- fb page -->
-				<div class="fb-page">
-						 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=300&height=214&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="214" style="border:none;overflow:hidden;display: inline-block;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>	
 					</div>
-			</div>
-				   
-		</div>
-	</div>
-</section>
-<!-- /photo gallery -->
-
-<!-- teachers/ staffs + fb like page -->
-<section class="our-partners section-padding box">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center title">Our Partners</h2>
-				<div class="partner-slider">
-					<ul class="bxslider">
-					  <li><a href="#"><img src="images/partnrs/bit.png" /></a></li>
-					  <li><a href="#"><img src="images/partnrs/netsoft.png" /></a></li>
-					  <li><a href="#"><img src="images/partnrs/softbd.png" /></a></li>
-					  <li><a href="#"><img src="images/partnrs/nexusti.png" /></a></li>
-					  <li><a href="#"><img src="images/partnrs/6axis.png" /></a></li>
-					  <li><a href="#"><img src="images/partnrs/dhka-hber.png" /></a></li>
-
-					  <li><a href="#"><img src="images/partnrs/nospam.png" /></a></li>
-					  <li><a href="#"><img src="images/partnrs/netsoft.png" /></a></li>
-					  <li><a href="#"><img src="images/partnrs/softbd.png" /></a></li>
-					  <li><a href="#"><img src="images/partnrs/nexusti.png" /></a></li>
-					  <li><a href="#"><img src="images/partnrs/6axis.png" /></a></li>
-					  <li><a href="#"><img src="images/partnrs/dhka-hber.png" /></a></li>					  	
-					</ul>
-				</div>
+				</div>	
 			</div>
 		</div>
 	</div>
 </section>
-<!-- / teachers/ staffs + fb like page -->
+<!-- /online admission section -->
 
 <!-- footer section -->
 <footer class="footer-section section-padding box">
