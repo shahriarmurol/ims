@@ -13,7 +13,10 @@
         duplicated: true
     });
     //news tickers 
-    $('.ui-newsticker').newsticker();
+   // $('.ui-newsticker').newsticker();
+    $(function() {
+      $('.ui-newsticker').newsticker();
+    });
     // owl carasul
     $('.owl-carousel').owlCarousel({
       itemsDesktop : [1000,1], // 2 items between 1000px and 901px

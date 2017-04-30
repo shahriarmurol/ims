@@ -1,3 +1,6 @@
+<?php 
+	require_once('admin/pages/config.php');
+?>
 <!DOCTYPE html> <!-- html v5 -->
 <html lang="en"> <!-- default language english -->
 <head>
@@ -20,6 +23,25 @@
 	 <link rel="stylesheet" href="css/style.css"> <!-- Main style -->
 	 <link rel="stylesheet" href="css/nav.css"> <!-- Main style -->
 	 <!-- /CSS  -->
+	 <style>
+	 	.announcement_inner{
+		 	height: 30px;
+		 	padding: 8px;
+		 	width: 100%;
+		    overflow: hidden;
+		    border:none;
+		    background: #fff;
+		    border-radius: 5px;
+		    -webkit-border-radius: 5px;
+		    -moz-border-radius: 5px;
+		    display: inline-block;
+		    box-shadow: none;
+		}
+		.announcement_inner a p{
+			color: #333;
+			font-weight: 700;
+	 	}
+	 </style>
 </head>
 <body>
 <!-- ============= markup start here ================== -->
@@ -214,21 +236,22 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="latest-news-left">
-						<span>Announcement: </span>
+					<span>Announcement: </span>
 				</div>
 				<div class="latest-news-right">
-					<div class="ui-newsticker">
-					  <ul class="ui-newsticker-list">
-					    <li class="ui-newsticker-item">
-					     1 That open was light. After also shall first rule third every place spirit light. Beginning together their hath, winged firmament.
-					    </li>
-					    <li class="ui-newsticker-item">
-					      2 That creature his bring waters female morning place Give bearing in isn't from. Without his fowl void bearing. Blessed give.
-					    </li>
-					    <li class="ui-newsticker-item">
-					      3 And also. Firmament and Give. Sea replenish gathered give in for whose tree their a said multiply abundantly give years.
-					    </li>
-					  </ul>
+					<div class="marquee announcement_inner" data-direction='up' data-duration='2000' data-pauseOnHover="true">
+					<?php 
+						$slt = "SELECT * FROM announcement ORDER BY id DESC";
+						$qre = mysqli_query($DBC,$slt);
+						while($data=mysqli_fetch_array($qre)){ ?>
+							<a href="#">
+								<p><?= $data['announcements']; ?></p>
+							</a>
+						<?php	}
+					?>
+						<!-- <a href="#"><p>jQuery marquee is the best marquee plugin in the world</p></a>
+						<a href="#"><p>jQuery marquee is the best marquee plugin in the world</p></a>
+						<a href="#"><p>jQuery marquee is the best marquee plugin in the world</p></a> -->
 					</div>
 				</div>
 			</div>
@@ -587,7 +610,8 @@
 <!-- ================= /markup end here ========== -->
 
 <!-- All javaScript -->
-<script src="js/jquery-1.12.4.min.js"></script> <!-- jquery -->
+<!-- <script src="js/jquery-1.12.4.min.js"></script> --> <!-- jquery -->
+<script src="js/jquery-2.2.4.min.js"></script> <!-- jquery -->
 <script src="js/bootstrap.min.js"></script> <!-- bootstrap js -->
 <script src="js/nav.js"></script> <!-- bootstrap js -->
 <script src="js/jquery.newsticker.min.js"></script>

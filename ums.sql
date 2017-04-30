@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 27, 2017 at 08:17 PM
+-- Generation Time: Apr 30, 2017 at 06:57 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -19,6 +19,27 @@ SET time_zone = "+00:00";
 --
 -- Database: `ums`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `announcement`
+--
+
+CREATE TABLE `announcement` (
+  `id` int(11) NOT NULL,
+  `announcements` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `announcement`
+--
+
+INSERT INTO `announcement` (`id`, `announcements`) VALUES
+(1, '1 jQuery marquee is the best marquee plugin in the world'),
+(2, '2 jQuery marquee is the best marquee plugin in the world'),
+(3, '3 jQuery marquee is the best marquee plugin in the world'),
+(4, '4 jQuery marquee is the best marquee plugin in the world');
 
 -- --------------------------------------------------------
 
@@ -46,6 +67,12 @@ INSERT INTO `comments` (`com_id`, `com_name`, `com_email`, `com_subject`, `com_m
 --
 
 --
+-- Indexes for table `announcement`
+--
+ALTER TABLE `announcement`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `comments`
 --
 ALTER TABLE `comments`
@@ -56,10 +83,15 @@ ALTER TABLE `comments`
 --
 
 --
+-- AUTO_INCREMENT for table `announcement`
+--
+ALTER TABLE `announcement`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+--
 -- AUTO_INCREMENT for table `comments`
 --
 ALTER TABLE `comments`
-  MODIFY `com_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `com_id` int(11) NOT NULL AUTO_INCREMENT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
