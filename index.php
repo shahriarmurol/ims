@@ -94,7 +94,7 @@
 				<!-- / mobile icon -->
 				<nav>
 					<ul class="menu">
-						<li class="active"><a href="index.html">Home</a></li>
+						<li class="active"><a href="index.php">Home</a></li>
 						<li><a href="about.html">About 
 							<!-- nav indicator -->
 							<span class="nav-indicator">
@@ -321,28 +321,27 @@
 			<div class="col-md-4">
 				<div class="programmes-info">
 					<h2> <i class="fa fa-graduation-cap"></i> Academics</h2>
-					<p>Degreename Programs</p>
+					<p>UNDERGRADUATE PROGRAMS</p>
 					<ul>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
+					<?php 
+						$select = "SELECT * FROM undergradute_sub_names";
+						$qre = mysqli_query($DBC,$select);
+						while($info=mysqli_fetch_array($qre)){   ?>
+						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> <?= $info['sub_name']; ?></a></li>
+						<?php	}
+					?>
 					</ul>
 					<!-- <button class="btn btn-success btn-sm pull-right">More</button><br/> -->
 
-					<p>Degreename Programs</p>
+					<p>GRADUATE PROGRAMS</p>
 					<ul>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Program Name</a></li>
+						<?php 
+						$select = "SELECT * FROM gradute_sub_names";
+						$qre = mysqli_query($DBC,$select);
+						while($info=mysqli_fetch_array($qre)){   ?>
+						<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> <?= $info['sub_name']; ?></a></li>
+						<?php	}
+					?>
 					</ul>
 					<!-- <button class="btn btn-success btn-sm pull-right">More</button><br/> -->
 					

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 30, 2017 at 06:57 PM
+-- Generation Time: May 01, 2017 at 10:28 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `announcement` (
   `id` int(11) NOT NULL,
   `announcements` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 --
 -- Dumping data for table `announcement`
@@ -53,7 +53,7 @@ CREATE TABLE `comments` (
   `com_email` varchar(48) NOT NULL,
   `com_subject` varchar(48) NOT NULL,
   `com_message` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
 
 --
 -- Dumping data for table `comments`
@@ -61,6 +61,70 @@ CREATE TABLE `comments` (
 
 INSERT INTO `comments` (`com_id`, `com_name`, `com_email`, `com_subject`, `com_message`) VALUES
 (0, 'abc', 'abc@gmail.com', 'abc', '                                                                abc text                                                        ');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `gradute_sub_names`
+--
+
+CREATE TABLE `gradute_sub_names` (
+  `id` int(11) NOT NULL,
+  `sub_name` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `gradute_sub_names`
+--
+
+INSERT INTO `gradute_sub_names` (`id`, `sub_name`) VALUES
+(1, 'M. Sc. in Mathematics (General: One-year evening program)'),
+(2, 'M. Sc. in Mathematics (General: Two-year evening program)'),
+(3, 'M. Sc. in Economics (One-year evening program)'),
+(4, 'M. A. in English Language Teaching (ELT)');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `notices`
+--
+
+CREATE TABLE `notices` (
+  `id` int(11) NOT NULL,
+  `notice` text NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `notices`
+--
+
+INSERT INTO `notices` (`id`, `notice`) VALUES
+(1, '1 hello '),
+(2, '2 piyash'),
+(3, '৩ আমার সোনার বাংলা আমি তোমায় ভালোবাস\r\nআমার সোনার বাংলা আমি তোমায় ভালোবাস\r\nআমার সোনার বাংলা আমি তোমায় ভালোবাস\r\nআমার সোনার বাংলা আমি তোমায় ভালোবাস');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `undergradute_sub_names`
+--
+
+CREATE TABLE `undergradute_sub_names` (
+  `id` int(11) NOT NULL,
+  `sub_name` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+
+--
+-- Dumping data for table `undergradute_sub_names`
+--
+
+INSERT INTO `undergradute_sub_names` (`id`, `sub_name`) VALUES
+(1, ' BBA (Major in Accounting, Finance, Marketing and HRM )'),
+(2, 'B. Sc. Engg. in EEE for Diploma Engineers'),
+(3, 'B. Sc. in CSIT (Four-year Program)'),
+(4, 'B. Sc. Engg. in CSE (Four-year Program)'),
+(5, 'B. Sc. in Textile Engineering (Four-year Program)'),
+(6, 'B. Sc. in Textile Engineering for Diploma Engineers');
 
 --
 -- Indexes for dumped tables
@@ -79,6 +143,24 @@ ALTER TABLE `comments`
   ADD PRIMARY KEY (`com_id`);
 
 --
+-- Indexes for table `gradute_sub_names`
+--
+ALTER TABLE `gradute_sub_names`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `notices`
+--
+ALTER TABLE `notices`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `undergradute_sub_names`
+--
+ALTER TABLE `undergradute_sub_names`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -92,6 +174,21 @@ ALTER TABLE `announcement`
 --
 ALTER TABLE `comments`
   MODIFY `com_id` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `gradute_sub_names`
+--
+ALTER TABLE `gradute_sub_names`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+--
+-- AUTO_INCREMENT for table `notices`
+--
+ALTER TABLE `notices`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+--
+-- AUTO_INCREMENT for table `undergradute_sub_names`
+--
+ALTER TABLE `undergradute_sub_names`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
