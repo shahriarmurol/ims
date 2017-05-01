@@ -268,76 +268,98 @@
 
 					<p style="color: red">* Marks Require, Fill This Field Must.</p>
 					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
+						<div class="col-md-6 col-md-offset-3">
 							<form action="" method="post">
-								<!-- form element -->
-								<div class="form-group">
-									<label for="sub" class="control-label col-sm-4">Application For Admission in</label>
-									<div class="col-sm-8">
-										<select class="form-control" id="sub">
+							<h2 class="text-center">Personal Information</h2>
+								<div class="from-group">
+									<label for="sub">Application For Admission in <span style="color: red"> *</span></label>
+									<select class="form-control" id="sub">pan	
 										  <option selected>CSE</option>
 										  <option>EEE</option>
 										  <option>BBA</option>
 										  <option>Math</option>
 										  <option>SS</option>
 										</select>
-									</div>
 								</div>
-								<!-- form element -->
-								<!-- form element -->
-								<div class="form-group">
-									<label for="sub" class="control-label col-sm-4">Name of the applicant</label>
-									<div class="col-sm-8">
-										<input type="text" name="name" id="name" class="form-control"/>
-									</div>
+								<div class="from-group">
+									<label for="name">Name<span style="color: red"> *</span></label>
+									<input type="text" name="name" id="name" class="form-control"/>
 								</div>
-								<!-- form element -->
-
+									
 									<div class="form-group">
-										<label for="fname">Father's Name</label>
+										<label for="fname">Father's Name <span style="color: red"> *</span></label>
 										<input type="text" name="fname" id="fname" class="form-control"/>
 									</div>
 									<div class="form-group">
-										<label for="mname">Mother's Name</label>
+										<label for="mname">Mother's Name <span style="color: red"> *</span></label>
 										<input type="text" name="mname" id="mname" class="form-control"/>
 									</div>
 									<div class="form-group">
-										<label for="birthdate">Date of Birth</label>
+										<label for="birthdate">Date of Birth <span style="color: red"> *</span></label>
 										<input type="date" name="birthdate" id="birthdate" class="form-control"/>
 									</div>
 									<div class="form-group">
-										<label for="maddress">Mailing Address</label>
+										<label for="maddress">Mailing Address <span style="color: red"> *</span></label>
 										<textarea name="maddress" id="maddress" class="form-control" rows="3"></textarea>
 									</div>
 									<div class="form-group">
-										<label for="phone">Phone No</label>
+										<label for="phone">Phone No <span style="color: red"> *</span></label>
 										<input type="text" maxlength="14" name="birthdate" id="birthdate" class="form-control"/>
 									</div>
 									<!-- academics -->
-
-
-								<fieldset class="scheduler-border">
-								 <legend class="scheduler-border">Bootstrap Horizontal Form</legend>
-									 <form class="form-horizontal">
-										 <div class="form-group">
-										 	<label for="formGroupExampleInput" class="control-label col-sm-2">Name</label>
-											 <div class="col-sm-10">
-											   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Jane Doe">
-											 </div>
-										 </div>
-										 <div class="form-group">
-										 <label for="formGroupExampleInput2" class="control-label col-sm-2">Email</label>
-										 <div class="col-sm-10">
-										 <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="jane.doe@example.com">
-										 </div>
-										 </div>
-										 <div class="form-group row">
-										 <div class="offset-sm-2 col-sm-7 pull-right">
-										 <button type="submit" class="btn btn-primary">Sign in</button>
-										 </div>
-										 </div>
-									 </form>
-								 </fieldset>
+									<h2 class="text-center">Academic records</h2>
+									<div class="from-group">
+										<label for="sub">Name of Exam <span style="color: red"> *</span></label>
+										<select class="form-control" id="sub">
+										  <option selected>Dakhil</option>
+										  <option>SSC</option>
+										  <option>Vocational</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label for="group">Group/Subject <span style="color: red"> *</span></label>
+										<input type="text" name="group" id="group" class="form-control"/>
+									</div>
+									<div class="form-group">
+										<label for="board">Board/University <span style="color: red"> *</span></label>
+										<input type="text" name="board" id="board" class="form-control"/>
+									</div>
+									<div class="from-group">
+										<label for="sub">Year of Passing <span style="color: red"> *</span></label>
+										<select class="form-control" id="sub">
+										  <option selected>2015</option>
+										  <option>2016</option>
+										  <option>2017</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label for="roll">Roll of Exam <span style="color: red"> *</span></label>
+										<input type="text" name="roll" id="roll" class="form-control"/>
+									</div>
+									<div class="form-group">
+										<label for="class">Class /Division/Grade <span style="color: red"> *</span></label>
+										<input type="text" name="class" id="class" class="form-control"/>
+									</div>
+									<!-- bangk info -->
+									<h2 class="text-center">Bank Information</h2>
+									<p>AB Bank Limited</p>
+									<p>Account No. 4022-792721-000</p>
+									<p>Shewrapara, Branch.</p>
+									
+									<div class="form-group">
+										<label for="money">Amount <span style="color: red"> *</span></label>
+										<input type="text" name="money" id="money" class="form-control"/>
+									</div>
+									
+									<div class="form-group">
+										<label for="slipNo">Deposit Slip No <span style="color: red"> *</span></label>
+										<input type="text" name="slipNo" id="slipNo" class="form-control"/>
+									</div>
+									<div class="form-group">
+										<label for="paymentDate">Date of Payment <span style="color: red"> *</span></label>
+										<input type="date" name="paymentDate" id="paymentDate" class="form-control"/>
+									</div>
+								
 							</form>
 						</div>
 					</div>
