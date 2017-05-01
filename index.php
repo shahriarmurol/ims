@@ -41,6 +41,10 @@
 			color: #333;
 			font-weight: 700;
 	 	}
+	 	.carousel {
+		    margin-bottom: 0;
+		    padding: 0 auto !important;
+		}
 	 </style>
 </head>
 <body>
@@ -95,7 +99,7 @@
 				<nav>
 					<ul class="menu">
 						<li class="active"><a href="index.php">Home</a></li>
-						<li><a href="about.html">About 
+						<li><a href="about.php">About 
 							<!-- nav indicator -->
 							<span class="nav-indicator">
 								<i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -109,7 +113,7 @@
 								<li><a href="#">Menu Item 2</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Administration
+						<li><a href="administration.php">Administration
 							<!-- nav indicator -->
 							<span class="nav-indicator">
 								<i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -152,7 +156,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="academics.html">Academics
+							<a href="academics.php">Academics
 								<!-- nav indicator -->
 								<span class="nav-indicator">
 									<i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -166,7 +170,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="admission.html">Admission
+							<a href="admission.php">Admission
 								<!-- nav indicator -->
 								<span class="nav-indicator">
 									<i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -180,7 +184,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="faculty.html">Faculty
+							<a href="faculty.php">Faculty
 								<!-- nav indicator -->
 								<span class="nav-indicator">
 									<i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -194,7 +198,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="career.html">Career
+							<a href="career.php">Career
 								<!-- nav indicator -->
 								<span class="nav-indicator">
 									<i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -208,7 +212,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="gallery.html">Gallery
+							<a href="gallery.php">Gallery
 								<!-- nav indicator -->
 								<span class="nav-indicator">
 									<i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -263,7 +267,7 @@
 		<div class="row">
 			<div class="col-md-12">
 
-				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="padding: 0">
 				  <!-- Indicators -->
 				  <ol class="carousel-indicators">
 				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
