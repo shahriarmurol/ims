@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 01, 2017 at 10:28 PM
+-- Generation Time: May 01, 2017 at 11:06 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -39,7 +39,8 @@ INSERT INTO `announcement` (`id`, `announcements`) VALUES
 (1, '1 jQuery marquee is the best marquee plugin in the world'),
 (2, '2 jQuery marquee is the best marquee plugin in the world'),
 (3, '3 jQuery marquee is the best marquee plugin in the world'),
-(4, '4 jQuery marquee is the best marquee plugin in the world');
+(4, '4 jQuery marquee is the best marquee plugin in the world'),
+(5, '৪ বছর মেয়াদী ডিপ্লোমা ইন ইঞ্জিনিয়ারিং কোর্সে ভর্তি চলছে। Hotline: 01936005816, 01936005817-18, শতভাগ কর্মসংস্থান নিশ্চিত করতে সাইকের জব প্লেসমেন্ট সেল নিরলস ভাবে কাজ করে যাচ্ছে! ');
 
 -- --------------------------------------------------------
 
@@ -99,9 +100,9 @@ CREATE TABLE `notices` (
 --
 
 INSERT INTO `notices` (`id`, `notice`) VALUES
-(1, '1 hello '),
-(2, '2 piyash'),
-(3, '৩ আমার সোনার বাংলা আমি তোমায় ভালোবাস\r\nআমার সোনার বাংলা আমি তোমায় ভালোবাস\r\nআমার সোনার বাংলা আমি তোমায় ভালোবাস\r\nআমার সোনার বাংলা আমি তোমায় ভালোবাস');
+(1, '1 Lorem ipsum is a placeholder text (filler text) in publishing and graphic design. It is used to demonstrate the graphics elements of a document, such as font, typography, and layout. ... Lorem ipsum dolor sit amet, consectetur adipisicing elit,'),
+(2, '2 Lorem ipsum is a placeholder text (filler text) in publishing and graphic design. It is used to demonstrate the graphics elements of a document, such as font, typography, and layout. ... Lorem ipsum dolor sit amet, consectetur adipisicing elit,'),
+(3, '৩ আমার সোনার বাংলা আমি তোমায় ভালোবাস\nআমার সোনার বাংলা আমি তোমায় ভালোবাস\nআমার সোনার বাংলা আমি তোমায় ভালোবাস\nআমার সোনার বাংলা আমি তোমায় ভালোবাস');
 
 -- --------------------------------------------------------
 
@@ -168,7 +169,7 @@ ALTER TABLE `undergradute_sub_names`
 -- AUTO_INCREMENT for table `announcement`
 --
 ALTER TABLE `announcement`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `comments`
 --
