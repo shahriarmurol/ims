@@ -255,6 +255,15 @@ body {
 .carousel-control.left, .carousel-control.right {
   background-image: none; }
 
+.carousel-indicators li {
+  background: #3498DB !important; }
+
+.carousel-indicators .active {
+  background: #22D18D !important; }
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  display: none; }
+
 /* ================= Announcement ===============*/
 .announcement {
   background: #fff none repeat scroll 0 0;

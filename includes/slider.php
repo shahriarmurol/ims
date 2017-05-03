@@ -4,29 +4,40 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="padding: 0">
 				  <!-- Indicators -->
 				  <ol class="carousel-indicators">
 				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
 				  </ol>
 
 				  <!-- Wrapper for slides -->
 				  <div class="carousel-inner" role="listbox">
 				    <div class="item active">
-				      <img src="images/slides/s-1.jpg" alt="first slides">
+				      <img src="images/slides/slides-1.jpg" alt="first slides">
 				      <div class="carousel-caption">
 				      </div>
 				    </div>
 				    <div class="item">
-				      <img src="images/slides/s-2.jpg" alt="second slides">
+				      <img src="images/slides/slides-2.jpg" alt="second slides">
 				      <div class="carousel-caption">
 				      </div>
 				    </div>
 				    <div class="item">
-				      <img src="images/slides/slides.png" alt="second slides">
+				      <img src="images/slides/slides-3.jpg" alt="second slides">
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img src="images/slides/slides-4.jpg" alt="second slides">
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img src="images/slides/slides-8.jpg" alt="second slides">
 				      <div class="carousel-caption">
 				      </div>
 				    </div>

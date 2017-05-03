@@ -1,5 +1,5 @@
 <!-- contact -->
-<div class="contact-section section-padding">
+<div class="contact-section section-padding box">
 	<div class="container">
 		<div class="row">
 			<h1 class="text-center">Contact us</h1>
@@ -42,7 +42,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="map">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.370334389508!2d90.39056151440508!3d23.734169784597366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8c1f25e613d%3A0xaad562eec578f8ff!2sArts+Faculty%2C+Dhaka!5e0!3m2!1sbn!2sbd!4v1492790672468" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.370334389508!2d90.39056151440508!3d23.734169784597366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8c1f25e613d%3A0xaad562eec578f8ff!2sArts+Faculty%2C+Dhaka!5e0!3m2!1sbn!2sbd!4v1492790672468" width="550" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 			</div>
 
